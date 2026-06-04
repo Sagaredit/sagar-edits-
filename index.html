@@ -3,62 +3,112 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sagar Edits</title>
+<title>Sagar Edits | Professional Video Editor</title>
 
 <style>
-body{
+*{
 margin:0;
+padding:0;
+box-sizing:border-box;
 font-family:Arial,sans-serif;
+}
+
+body{
 background:#0a0a0a;
 color:white;
-text-align:center;
 }
 
 .hero{
-padding:80px 20px;
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(135deg,#000000,#111111,#1a1a1a);
 }
 
-h1{
-font-size:60px;
+.hero h1{
+font-size:70px;
 color:#00ff88;
 margin-bottom:10px;
 }
 
-p{
-font-size:18px;
-color:#ccc;
+.hero p{
+font-size:20px;
+color:#cccccc;
+margin-bottom:30px;
 }
 
 .btn{
 display:inline-block;
-margin:10px;
+margin:8px;
 padding:15px 30px;
 background:#00ff88;
 color:black;
 text-decoration:none;
 font-weight:bold;
 border-radius:12px;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
 }
 
 .section{
-padding:50px 20px;
+padding:70px 20px;
+text-align:center;
+}
+
+.section h2{
+font-size:35px;
+color:#00ff88;
+margin-bottom:30px;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
 }
 
 .card{
-background:#111;
-border:1px solid #00ff88;
-padding:20px;
-margin:15px auto;
-max-width:300px;
+background:#171717;
+padding:25px;
+width:280px;
 border-radius:15px;
+border:1px solid #00ff88;
 }
 
-h2{
+.card h3{
 color:#00ff88;
+margin-bottom:10px;
+}
+
+.card p{
+color:#cccccc;
+}
+
+.contact-box{
+max-width:500px;
+margin:auto;
+background:#171717;
+padding:25px;
+border-radius:15px;
+border:1px solid #00ff88;
+}
+
+.contact-box p{
+margin:10px 0;
 }
 
 .footer{
-padding:20px;
+background:#111;
+padding:25px;
+text-align:center;
 color:#888;
 }
 </style>
@@ -66,7 +116,8 @@ color:#888;
 
 <body>
 
-<div class="hero">
+<section class="hero">
+
 <h1>Sagar Edits</h1>
 
 <p>
@@ -74,6 +125,7 @@ Professional Video Editor<br>
 Reels • Status • YouTube Videos
 </p>
 
+<div>
 <a class="btn" href="https://wa.me/918999119291">WhatsApp</a>
 
 <a class="btn" href="https://instagram.com/__sagar_n_jadhav__">Instagram</a>
@@ -81,8 +133,13 @@ Reels • Status • YouTube Videos
 <a class="btn" href="mailto:sagarnamdevjadhavjadhav@gmail.com">Email Me</a>
 </div>
 
-<div class="section">
+</section>
+
+<section class="section">
+
 <h2>My Services</h2>
+
+<div class="cards">
 
 <div class="card">
 <h3>Instagram Reels</h3>
@@ -98,10 +155,75 @@ Reels • Status • YouTube Videos
 <h3>YouTube Editing</h3>
 <p>Professional Long & Short Form Video Editing</p>
 </div>
+
+<div class="card">
+<h3>Social Media Content</h3>
+<p>Creative Content Editing For Brands & Creators</p>
 </div>
 
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Why Choose Me?</h2>
+
+<div class="contact-box">
+
+<p>✔ Fast Delivery</p>
+<p>✔ Premium Quality</p>
+<p>✔ Aesthetic Editing</p>
+<p>✔ Affordable Pricing</p>
+<p>✔ Professional Service</p>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Contact Me</h2>
+
+<div class="contact-box">
+
+<p><strong>Email:</strong></p>
+
+<p>
+<a style="color:#00ff88;"
+href="mailto:sagarnamdevjadhavjadhav@gmail.com">
+sagarnamdevjadhavjadhav@gmail.com
+</a>
+</p>
+
+<br>
+
+<p><strong>WhatsApp:</strong></p>
+
+<p>
+<a style="color:#00ff88;"
+href="https://wa.me/918999119291">
++91 89991 19291
+</a>
+</p>
+
+<br>
+
+<p><strong>Instagram:</strong></p>
+
+<p>
+<a style="color:#00ff88;"
+href="https://instagram.com/__sagar_n_jadhav__">
+@__sagar_n_jadhav__
+</a>
+</p>
+
+</div>
+
+</section>
+
 <div class="footer">
-© 2026 Sagar Edits
+© 2026 Sagar Edits | All Rights Reserved
 </div>
 
 </body>
